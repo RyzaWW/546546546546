@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КАЗИНО ROYALE</title>
+    <link rel="stylesheet" href="upDown.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <a href="..\index\index.html">
+                    <img  class="header__logo" src="..\img\logo\upDownLOGO.svg" alt="">
+                </a>
+                <div class="header__user">
+                    <div class="header__balance">0$</div>
+                    <a class="header__person" href="index.html">
+                        <img src="..\img\rest\user.svg" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main class="main">
+            <div class="container">
+                <div class="main__inner">
+                    <div class="main_x">0.00x</div>
+                    <div class="main__text-text">возможный выйгрыш</div>
+                    <div class="main__text">0.00$</div>
+                    <button class="main__button">Старт</button>
+                    
+                </div>
+                <div class="bet">
+                    <div class="bet__body">
+                        <div class="bet__title">Сумма ставки:</div>
+                        <input type="number"  onkeypress="if (this.value.length > 3) return false;" class="bet__input" value="0">
+                        <div class="bet__change">
+                            <button class="bet__item subtract10">-10</button>
+                            <button class="bet__item subtract1">-1</button>
+                            <button class="bet__item add1">+1</button>
+                            <button class="bet__item add10">+10</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="footer__text">При нажатии на старт Х начинает автоматически расти,ваша задача забрать выйгрыш до того как Х остановится.Удачи!</div>
+        </footer>
+    <script src="upDown.js"></script>
+</body>
+</html>

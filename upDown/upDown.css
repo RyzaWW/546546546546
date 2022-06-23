@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: black;
+    font-weight: 700;
+}
+
+*,*::after,*::before {
+    box-sizing: border-box;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
+.header {
+    margin-top: 20px;
+}
+
+.header__body {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    flex-wrap: wrap;
+}
+
+.header__logo {
+    width: 180px;
+}
+
+.header__user {
+    display: flex;
+}
+
+.header__balance {
+    font-size: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.bet__body {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bet__title {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.bet__change {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.bet__input {
+    background-color: black;
+    border: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {outline:none;}
+
+
+.bet__item {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: black;
+    border-radius: 15px;
+    padding: 0 5px;
+    font-weight: 700;
+    margin-top: 15px;
+    max-width: 100px;
+    width: 100%;
+    border: 1px solid black;
+    transition-duration: .2s;    
+}
+
+.bet__item:hover {
+    border: 1px solid white;    
+
+}
+
+.bet__item:active {
+    background-color: #000;
+    color: white;
+    transition-duration: 0s;
+} 
+
+.bet__balance {
+    margin-top: 40px;
+    font-weight: 700px;
+    font-size: 40px;
+    
+}
+
+.main {
+    margin-top: 80px;
+}
+
+.main__inner {
+    text-align: center;
+}
+.main_x {
+    font-size: 120px;
+}
+.main__text-text {
+    font-size: 30px;
+    width: 240px;
+    margin: 0 auto;
+}
+
+.main__text {
+    font-size: 30px;
+    width: 240px;
+    margin: 0 auto;
+}
+.main__button {
+    border-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #000;
+    border-radius: 30px;
+    font-size: 30px;
+    padding: 25px 100px;
+    margin-top:30px;
+    background-color: #00ff57;
+    border:1px solid #000;
+    transition-duration: .2s;
+}
+
+.main__button:hover {
+    color: #00ff57;
+    background-color: #000;
+    border:1px solid #00ff57;
+    
+}
+
+.main__button-on {
+    border-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #000;
+    border-radius: 30px;
+    font-size: 30px;
+    padding: 25px 100px;
+    margin-top:30px;
+    background-color: #FF0000;
+    border:1px solid #000;
+    transition-duration: .2s;
+}
+.main__button-on:hover {
+    color: #FF0000;
+    background-color: #000;
+    border:1px solid #FF0000;
+}
+
+.main__button-on:active {
+    color: #FF0000;
+    background-color: #000;
+}
+.footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer__text {
+    font-size: 40px;
+    color: rgba(255, 255, 255, 36%);
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.red {
+    color:#FF0000;
+}
+
+.green {
+    color: #00ff57;
+}
+
+@media (max-width: 992px) {
+    .footer__text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__user {
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .header__body {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .bet__change {
+        gap:20px;
+    }
+    .bet__item {
+        font-size: 30px;
+        max-width: 100px;
+        border-radius: 10px;
+    }
+    .bet__balance {
+        font-size: 30px;
+    }
+    .bet__title {
+        font-size: 30px;
+    }
+    .bet__input {
+        max-width: 200px;
+    }
+    .header__title {
+        font-size: 60px;
+        margin: 30px 0;
+    }
+
+    .header__title {
+        font-size: 40px;   
+    }
+    .bet__body {
+        margin-top: 15px;
+    }
+    .bet__item {
+        max-width: 70px;
+    }
+    .main_x {
+        font-size: 90px;
+    }
+    .main {
+        margin-top: 50px;
+    }
+}    
