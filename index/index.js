@@ -1,7 +1,7 @@
 
 let balance = 0;
 let walletStatus = false;
-let arrows = ["..\\img\\choice\\arrowDown.svg", "..\\img\\choice\\arrowUp.svg"];
+let arrows = ["..\\img\\choice\\arrowDOWN.svg", "..\\img\\choice\\arrowUP.svg"];
 let activeChoice = 0;
 let changeStatus = 0;
 let usdt = 0;
